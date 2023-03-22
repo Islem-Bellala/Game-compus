@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: transparent;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+}
+.navbar a {
+    text-transform: uppercase;
+    font-size:14px;
+    font-weight: bold;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    margin:0 15px;
+    font-family: sans-serif;
+    height: 50px;
+    display: flex;
+}
+.navbar a:hover{
+    color: #6004ab;
+    border-top: 5px solid #6004ab;
+    height: 45px;
+}
+.lang a{
+    display: flex;
+    padding: 5px 12px;
+    border-radius: 20px;
+    background-color: lightgray;
+    text-transform: uppercase;
+    font-size:14px;
+    font-weight: bold;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+.header-img{
+    color: white;
+    text-align: center;
+    height: 380px;
+    background-image: url(/style/img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+}
+.header-img h1{
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.header-img button{
+    padding: 10px 20px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    border: solid white 1px;
+}
+code{
+    font-weight: bold;
+    font-size: large;
+}
+.header-text{
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+    height: 90px;
+    margin: auto;
+    padding-top: 60px;
+}
+.margin{
+    max-width: 900px;
+    margin: auto;
+}
+.section1{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    height: 520px;
+}
+.min-sec1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 70px;
+}
+.gaming{
+    width: 230px;
+    margin:100px 0 80px 0 ;
+}
+.gaming h4{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+.gaming button{
+    margin-top: 20px;
+    background-color: transparent;
+    border: solid 1px white;
+    padding: 10px 40px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.gaming p{
+    font-size: 12px;
+}
+.section2{
+    height: 750px;
+    background-color: #f7f7f7;
+}
+.newsroom{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    font-family: sans-serif;
+}
+.newsroom-g h3{
+    font-weight: normal;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+.newsroom-g p{
+    font-weight: bold;
+    font-size: 12px;
+}
+.newsroom button{
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: transparent;
+    border: solid 1px black;
+    padding: 10px 20px;
+    margin-right: 100px;
+}
+.newsboxes{
+    display: flex;
+    gap: 100px;
+    margin-top: 80px;
+    font-family: sans-serif;
+}
+.newsbox{
+    width: 255px;
+    height: 430px;
+    position: relative;
+}
+.newsbox img{
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px 2px gainsboro,-2px -2px 10px 2px gainsboro;
+    margin-bottom: 15px;
+}
+.newsbox p{
+    font-weight: bold;
+    font-size:13px;
+    margin-top: 15px;
+}
+.newsbox a{
+    color: #6004ab;
+    font-size:12px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 0;
+    text-transform: uppercase;
+}
+.sec3-1{
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+}
+.sec3-1 img{
+    height: 200px;
+    margin-right: 50px;
+}
+.sec3-1 h3 {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+.sec3-1 a{
+    color: #6004ab;
+    font-size:11px;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.sec3-1 p {
+    font-size: 0.75rem;
+    font-weight: 800;
+}
+.infos{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.parents , .contact{
+    width: 25%;
+}
+.parents p{
+    margin-bottom: 20px;
+}
+.contact > .first , .second {
+    margin-bottom: 20px;
+}
+.second h3{
+    margin-bottom: 5px;
+}
+svg{
+    margin-right: 10px;
+}
+.sec3-2{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid lightgray;
+    padding: 40px 0 40px;
+}
