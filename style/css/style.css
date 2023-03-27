@@ -193,7 +193,7 @@ code{
     text-transform: capitalize;
     margin-bottom: 15px;
 }
-.sec3-1 p {
+.sec3-1 p , .sec3-2-g p{
     font-size: 0.75rem;
     font-weight: 800;
 }
@@ -222,4 +222,33 @@ svg{
     justify-content: space-between;
     border-top: 2px solid lightgray;
     padding: 40px 0 40px;
+    max-width: 75%;
+}
+.sec3-2-g{
+    width: 30%;
+}
+.sec3-2-g h3{
+     font-size: 0.85rem;
+     margin-bottom: 15px;
+}
+.sec3-2-d{
+    padding-left: 40px;
+}
+.sec3-2-d img{
+    width: 10%;
+    margin-right: 10px;
+}
+footer{
+    height: 130px;
+    background-color: rgba(36, 36, 36, 0.966);
+    text-align: center;
+    color: white;
+    padding-top:20px;
+}
+footer div img{
+    padding: 10px;
+}
+footer h2{
+    font-weight: 400;
+    font-size: 1.2rem;
 }
